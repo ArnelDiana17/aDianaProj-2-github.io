@@ -163,11 +163,10 @@ li, a {
 
 .head2{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     color: red;
     font-weight: bold;
     padding: 30px;
-    margin-left: 250px;
     margin-bottom: 10px;
 }
 
@@ -176,7 +175,6 @@ li, a {
     display: flex;
     justify-content: center;
     color: red;
-    margin-right: 480px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -224,22 +222,20 @@ li, a {
     padding: 15px;
 }
 
-.m_container button{
-    margin-top: 20px;
-    margin-left: 810px;
+.m_container a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 10px;
-    background-color:white;
+    font-size: 16px;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.m_container button a {
-    text-decoration: none;
-    color: black;
-    background-color: white;
+.m_container button{
+ text-align: center;
 }
 
 .item1 {
@@ -290,7 +286,6 @@ li, a {
 
 .charcont button{
     margin-top: 20px;
-    margin-left: 810px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 10px;
@@ -363,7 +358,6 @@ li, a {
     display: inline-block;
     padding: 0px 20px;
     color: white;
-    margin-left: 75px;
 }
 
 .nav_links2 li a {
@@ -377,7 +371,9 @@ li, a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px 15%;
+    width: 100%;
+    margin: 0 auto 0;
+    padding: 30px;
 }
 
 .outf2{
@@ -415,8 +411,6 @@ li, a {
         flex-direction: column;
         align-items: center;
         width: 100vw;
-    }
-    .head1{
         width: 600px;
         margin: 0 auto;
         justify-content: space-between;
@@ -439,6 +433,7 @@ li, a {
     .csorc h1{
         margin-bottom: 20px;
     }
+
     .m2_container {
         flex-direction: column;
         align-items: center;
@@ -454,6 +449,27 @@ li, a {
         margin: 0 auto;
     }
     .h2{
+        align-items: center;
+    }
+    .m3_container{
+        width: 600px;
+    }
+    .m3_container p{
+        font-size: 9px;
+    }
+    .abcon{
+        width: 600px;
+    }
+
+    .nav_links2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 30px;
+    }
+    .outf2 {
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
     }
 
